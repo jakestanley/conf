@@ -20,5 +20,6 @@ rm i3git -r -f
 # Install other i3 dependencies
 sudo apt-get -y install i3bar
 sudo apt-get -y install dmenu
+sudo apt-get -y install i3status
 
 ## TODO remove crap folders, pictures, etc
