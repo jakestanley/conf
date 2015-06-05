@@ -9,8 +9,8 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-# wallpaper - change to feh
-# exec --no-startup-id nitrogen --restore
+# wallpaper - improve this to work with a directory
+exec feh --bg-center ~/wallpaper.jpg
 
 # set keyboard mappings
 exec setxkbmap gb
