@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Creates a native looking instance of the Todoist app
+
+google-chrome --app="https://tweetdeck.twitter.com"

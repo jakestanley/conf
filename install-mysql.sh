@@ -1,0 +1,1 @@
+# Script for installing and setting up MySQL

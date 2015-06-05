@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Creates a simple borderless chrome container for the evernote web app, y'know cos the alternatives are shit on Linux
+
+google-chrome --app="https://evernote.com"
