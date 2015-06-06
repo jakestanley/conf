@@ -1,9 +1,7 @@
-## Remove existing i3 configuration (TODO if exists?)
+## Link to .bashrc configuration in conf/dotfiles (TODO make conditional for mac keyboard)
 sudo mv ~/.bashrc ~/.bashrc.default
 sudo ln -s ~/conf/dotfiles/.bashrc ~/.bashrc
 
-# Symlink to i3 configuration in Dropbox
+# Link to i3 configuration in conf/dotfiles
 sudo rm ~/.i3 -r
 sudo ln -s ~/conf/dotfiles/.i3 ~/.i3
-
-## need to link dotfiles for .profile and some other crap
