@@ -11,7 +11,7 @@ The scripts may as part of their execution run smaller scripts for configuring c
 
 ##bootstrap.sh
 - Installs git and clones this repository into ~ (*git isn't installed by default on Ubuntu 14.04*)
-- A copy is hosted at [](http://jakestanley.net/bootstrap.sh)
+- A copy is hosted at [http://jakestanley.net/bootstrap.sh](http://jakestanley.net/bootstrap.sh)
 - Shouldn't have to change
 
 ##install-all.sh
@@ -34,8 +34,6 @@ The scripts may as part of their execution run smaller scripts for configuring c
 ##install-mysql.sh
 - Installs mysql-workbench
 - Installs mysql-server
-
-This should be hosted some where it can be downloaded and run.
  
 ###Installations
 - git
