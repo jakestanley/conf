@@ -7,6 +7,18 @@ These scripts should be hosted on a branched public GitHub repository, with the 
 
 The scripts may as part of their execution run smaller scripts for configuring common components. Where possible and necessary, application shortcuts will be added to /usr/bin/local/.
 
+##Intended use case
+Install Ubuntu in a VirtualBox VM instance
+Install guest additions
+Open a terminal and run the following commands
+
+- cd ~
+- wget http://jakestanley.net/bootstrap.sh
+- chmod +x bootstrap.sh
+- ./bootstrap.sh
+- cd conf
+- ./install-all.sh
+
 #Scripts
 
 ##bootstrap.sh
