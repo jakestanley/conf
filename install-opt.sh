@@ -15,3 +15,11 @@ tar xvf Sublime*
 rm Sublime*tar.bz2
 sudo mv Sublime*/ /opt/sublime
 sudo ln -s /opt/sublime/sublime_text /usr/local/bin/sublime_text
+
+## PhpStorm
+cd ~
+wget http://download.jetbrains.com/webide/PhpStorm-8.0.3.tar.gz
+tar xvf PhpStorm-*
+rm PhpStorm-8*tar.gz
+sudo mv PhpStorm-*/ /opt/phpstorm/
+sudo ln -s /opt/phpstorm/bin/phpstorm.sh /usr/local/bin/phpstorm
