@@ -1,5 +1,5 @@
 #!/bin/bash
-# Downloads and installs Git on a vanilla Ubuntu installation and checks out the project. Run as superuser
+# Downloads and installs Git on a vanilla Ubuntu installation and checks out the project
 sudo apt-get update
 sudo apt-get install -y git
 cd ~
