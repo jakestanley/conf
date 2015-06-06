@@ -1,1 +1,2 @@
-sudo apt-get install filezilla
+# Installs FileZilla
+sudo apt-get install -y filezilla
