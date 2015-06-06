@@ -2,6 +2,6 @@
 sudo rm ~/.i3 -r
 
 # Symlink to i3 configuration in Dropbox
-sudo ln -s dotfiles/.i3 ~/.i3
+sudo ln -s ~/conf/dotfiles/.i3 ~/.i3
 
 ## need to link dotfiles for .profile and some other crap
