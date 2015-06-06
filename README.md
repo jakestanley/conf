@@ -27,6 +27,7 @@ Open a terminal and run the following commands
 - Shouldn't have to change
 
 ##install-all.sh
+- Path must be ~/conf/install-all.sh
 - Master script
 - Installs everything
 - Will take arguments when I add that functionality
