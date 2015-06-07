@@ -8,4 +8,4 @@ rm -r ~/Music
 rm -r ~/Templates
 rm -r ~/Public
 rm -r ~/Videos
-rm examples.desktop
+rm ~/examples.desktop

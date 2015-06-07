@@ -84,7 +84,7 @@ Installs the Dropbox stuff. Manual configuration required.
 - dropbox.py
 
 ##install-webapps.sh
-'Installs' some web apps. These are just scripts that are put in /usr/local/bin that launch borderless browser windows with the web pages.
+'Installs' some web apps. These are just scripts that are put in /usr/local/bin that launch web apps in a borderless browser window.
 - todoist
 - evernote
 - 
