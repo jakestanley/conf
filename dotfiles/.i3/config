@@ -120,15 +120,15 @@ bindsym $mod+a focus parent
 
 # WORKSPACE MANAGEMENT
 
-set $tag1 "1: web"
-set $tag2 "2: terminal"
-set $tag3 "3: ide"
-set $tag4 "4: sublime"
-set $tag5 "5: database"
-set $tag6 "6: files"
-set $tag7 "7: git"
-set $tag8 "8: music"
-set $tag9 "9: meta"
+set $tag1 "1: luke"
+set $tag2 "2: leia"
+set $tag3 "3: han"
+set $tag4 "4: chewie"
+set $tag5 "5: vader"
+set $tag6 "6: kenobi"
+set $tag7 "7: lando"
+set $tag8 "8: yoda"
+set $tag9 "9: boba"
 
 # switch to workspace
 bindsym $mod+1 workspace $tag1
