@@ -23,3 +23,5 @@ tar xvf PhpStorm-*
 rm PhpStorm-8*tar.gz
 sudo mv PhpStorm-*/ /opt/phpstorm/
 sudo ln -s /opt/phpstorm/bin/phpstorm.sh /usr/local/bin/phpstorm
+
+## TeamSpeak
