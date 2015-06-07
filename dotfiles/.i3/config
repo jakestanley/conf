@@ -120,15 +120,16 @@ bindsym $mod+a focus parent
 
 # WORKSPACE MANAGEMENT
 
-set $tag1 "1: luke"
-set $tag2 "2: leia"
-set $tag3 "3: han"
-set $tag4 "4: chewie"
-set $tag5 "5: vader"
-set $tag6 "6: kenobi"
-set $tag7 "7: lando"
-set $tag8 "8: yoda"
-set $tag9 "9: boba"
+set $tag1 "I"
+set $tag2 "II"
+set $tag3 "III"
+set $tag4 "IV"
+set $tag5 "V"
+set $tag6 "VI"
+set $tag7 "VII"
+set $tag8 "VIII"
+set $tag9 "IX"
+set $tag10 "X"
 
 # switch to workspace
 bindsym $mod+1 workspace $tag1
@@ -140,6 +141,7 @@ bindsym $mod+6 workspace $tag6
 bindsym $mod+7 workspace $tag7
 bindsym $mod+8 workspace $tag8
 bindsym $mod+9 workspace $tag9
+bindsym $mod+0 workspace $tag10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $tag1
@@ -151,6 +153,7 @@ bindsym $mod+Shift+6 move container to workspace $tag6
 bindsym $mod+Shift+7 move container to workspace $tag7
 bindsym $mod+Shift+8 move container to workspace $tag8
 bindsym $mod+Shift+9 move container to workspace $tag9
+bindsym $mod+Shift+0 move container to workspace $tag10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
