@@ -118,6 +118,9 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+# playpause spotify
+bindsym $mod+p exec qdbus org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+
 # WORKSPACE MANAGEMENT
 
 set $tag1 "1"
