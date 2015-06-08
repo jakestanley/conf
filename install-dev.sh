@@ -2,6 +2,7 @@
 sudo apt-get -y install nginx
 sudo apt-get -y install php5-fpm
 sudo apt-get -y install php5-cli
+sudo apt-get -y install php5-mysql
 
 # Install n98-magerun.phar
 cd ~
