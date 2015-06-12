@@ -5,3 +5,7 @@ sudo ln -s ~/conf/dotfiles/.bashrc ~/.bashrc
 # Link to i3 configuration in conf/dotfiles
 sudo rm ~/.i3 -r
 sudo ln -s ~/conf/dotfiles/.i3 ~/.i3
+
+# Link to .gconf (gnome configurations)
+sudo rm ~/.gconf -r
+sudo ln -s ~/conf/dotfiles/.gconf ~/.gconf
