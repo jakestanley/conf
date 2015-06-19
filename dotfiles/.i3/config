@@ -58,6 +58,9 @@ bindsym $mod+Return exec gnome-terminal
 # start a browser window
 bindsym $mod+b exec google-chrome
 
+# start a file manager window
+bindsym $mod+n exec nautilus --no-desktop
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
