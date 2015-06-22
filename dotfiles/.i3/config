@@ -59,7 +59,7 @@ bindsym $mod+Return exec gnome-terminal
 bindsym $mod+b exec google-chrome
 
 # start a file manager window
-bindsym $mod+n exec nautilus --no-desktop
+bindsym $mod+n exec xfe
 
 # kill focused window
 bindsym $mod+Shift+q kill
