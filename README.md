@@ -86,7 +86,6 @@ Installs the Dropbox stuff. Manual configuration required.
 'Installs' some web apps. These are just scripts that are put in /usr/local/bin that launch web apps in a borderless browser window.
 - todoist
 - evernote
-- 
 
 ###install-dev.sh
 Mainly stuff for PHP development
