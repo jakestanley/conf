@@ -129,8 +129,8 @@ bindsym $mod+o exec qdbus org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2
 # WORKSPACE MANAGEMENT
 
 set $tag1 "1"
-set $tag2 "2"
-set $tag3 "3"
+set $tag2 "2: ide"
+set $tag3 "3: text"
 set $tag4 "4: git"
 set $tag5 "5"
 set $tag6 "6: web"
