@@ -1,29 +1,29 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="default_show_menubar" mtime="1434123514" type="bool" value="false"/>
-	<entry name="background_darkness" mtime="1434122515" type="float" value="0.47526881098747253"/>
-	<entry name="background_type" mtime="1434122421" type="string">
+	<entry name="default_show_menubar" mtime="1435132821" type="bool" value="false"/>
+	<entry name="background_darkness" mtime="1435132821" type="float" value="0.47526898980140686"/>
+	<entry name="background_type" mtime="1435132821" type="string">
 		<stringvalue>transparent</stringvalue>
 	</entry>
-	<entry name="use_theme_colors" mtime="1434122397" type="bool" value="false"/>
-	<entry name="font" mtime="1434122501" type="string">
+	<entry name="use_theme_colors" mtime="1435132821" type="bool" value="false"/>
+	<entry name="font" mtime="1435132821" type="string">
 		<stringvalue>Courier 10 Pitch 10</stringvalue>
 	</entry>
-	<entry name="use_system_font" mtime="1434098049" type="bool" value="false"/>
-	<entry name="palette" mtime="1434122416" type="string">
+	<entry name="use_system_font" mtime="1435132821" type="bool" value="false"/>
+	<entry name="palette" mtime="1435132821" type="string">
 		<stringvalue>#000000000000:#AAAA00000000:#0000AAAA0000:#AAAA55550000:#00000000AAAA:#AAAA0000AAAA:#0000AAAAAAAA:#AAAAAAAAAAAA:#555555555555:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#55555555FFFF:#FFFF5555FFFF:#5555FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
 	</entry>
-	<entry name="alternate_screen_scroll" mtime="1434098049" type="bool" value="true"/>
-	<entry name="background_color" mtime="1434122507" type="string">
+	<entry name="alternate_screen_scroll" mtime="1435132821" type="bool" value="true"/>
+	<entry name="background_color" mtime="1435132821" type="string">
 		<stringvalue>#000000000000</stringvalue>
 	</entry>
-	<entry name="visible_name" mtime="1434098049" type="string">
+	<entry name="visible_name" mtime="1435132821" type="string">
 		<stringvalue>Default</stringvalue>
 	</entry>
-	<entry name="bold_color" mtime="1434098049" type="string">
+	<entry name="bold_color" mtime="1435132821" type="string">
 		<stringvalue>#000000000000</stringvalue>
 	</entry>
-	<entry name="foreground_color" mtime="1434122507" type="string">
+	<entry name="foreground_color" mtime="1435132821" type="string">
 		<stringvalue>#FFFFFFFFFFFF</stringvalue>
 	</entry>
 </gconf>
