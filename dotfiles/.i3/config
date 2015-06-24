@@ -59,7 +59,7 @@ bindsym $mod+Return exec gnome-terminal
 bindsym $mod+b exec google-chrome
 
 # start a file manager window
-bindsym $mod+n exec nautilus --no-desktop
+bindsym $mod+n exec nautilus
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -137,7 +137,7 @@ set $tag6 "6: web"
 set $tag7 "7: mysql"
 set $tag8 "8: med-com"
 set $tag9 "9"
-set $tag10 "10"
+set $tag10 "10: off-topic"
 
 # switch to workspace
 bindsym $mod+1 workspace $tag1
