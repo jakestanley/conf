@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <gconf>
 	<entry name="default_show_menubar" mtime="1435132821" type="bool" value="false"/>
-	<entry name="background_darkness" mtime="1435132821" type="float" value="0.47526898980140686"/>
+	<entry name="background_darkness" mtime="1435150625" type="float" value="0.6875"/>
 	<entry name="background_type" mtime="1435132821" type="string">
 		<stringvalue>transparent</stringvalue>
 	</entry>
 	<entry name="use_theme_colors" mtime="1435132821" type="bool" value="false"/>
-	<entry name="font" mtime="1435132821" type="string">
-		<stringvalue>Courier 10 Pitch 10</stringvalue>
+	<entry name="font" mtime="1435132900" type="string">
+		<stringvalue>Droid Sans Mono 10</stringvalue>
 	</entry>
 	<entry name="use_system_font" mtime="1435132821" type="bool" value="false"/>
 	<entry name="palette" mtime="1435132821" type="string">
