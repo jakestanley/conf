@@ -207,7 +207,7 @@ bar {
 		# TYPE 		   border  bg	   text
 
 		focused_workspace  #FFFFFF #646464 #ffffff
-        	active_workspace   #FFFF00 #5f676a #ffffff
+        	active_workspace   #AAAAAA #363636 #AAAAAA
         	inactive_workspace #333333 #262626 #CECECE
         	urgent_workspace   #aa0000 #990000 #ffffff
 	}
