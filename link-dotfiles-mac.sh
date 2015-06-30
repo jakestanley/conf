@@ -4,6 +4,7 @@ sudo ln -s ~/conf/dotfiles/.bashrc.mac ~/.bashrc
 
 # Link to i3 configuration in conf/dotfiles
 sudo rm ~/.i3 -r
+mkdir ~/.i3
 sudo ln -s ~/conf/dotfiles/.i3/config.mac ~/.i3/config
 sudo ln -s ~/conf/dotfiles/.i3/.i3status.conf ~/.i3/.i3status.conf
 
