@@ -97,4 +97,4 @@ Mainly stuff for PHP development
 ## Additional requirements
 
 - Set static IP 
-```sudo nano /etc/network/interfaces```
+```sudo vim /etc/network/interfaces```
