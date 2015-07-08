@@ -126,11 +126,11 @@ set $tag1 "1: terminal"
 set $tag2 "2: ide"
 set $tag3 "3: text"
 set $tag4 "4: git"
-set $tag5 "5"
+set $tag5 "5: preview"
 set $tag6 "6: web"
 set $tag7 "7: mysql"
 set $tag8 "8: med-com"
-set $tag9 "9"
+set $tag9 "9: files"
 set $tag10 "10: off-topic"
 
 # switch to workspace
