@@ -1,0 +1,77 @@
+[user]
+	name = jacobstanley
+	email = jacob.stanley@purenet.co.uk
+[push]
+	default = simple
+[alias]
+
+l = "!x() { git log --pretty=tformat:\"%Cred%d %Cgreen%s %Cblue(%cn) %Cred%h\" --graph --branches --decorate -n$1;}; x"
+
+co = checkout
+
+
+nb = checkout -b
+
+db = branch -D
+
+
+
+
+cp = cherry-pick
+
+
+
+
+s = status
+
+
+
+
+dt = difftool
+
+
+
+
+mt = mergetool
+
+
+
+
+ph = push origin HEAD
+
+[gui]
+
+[diff]
+
+    tool = kdiff3
+
+[difftool]
+
+    prompt = false
+
+[difftool "kdiff3"]
+
+    path = /usr/bin/kdiff3
+
+    keepBackup = false
+
+    trustExitCode = false
+
+[mergetool "kdiff3"]
+
+    path = /usr/bin/kdiff3
+
+    trustExitCode = false
+
+[mergetool]
+
+    keepBackup = false
+
+[merge]
+
+    tool = kdiff3
+
+[core]
+
+editor = vim
+
