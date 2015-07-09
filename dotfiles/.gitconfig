@@ -16,6 +16,7 @@ db = branch -D
 cp = cherry-pick
 
 s = status
+su = status -uno
 
 dt = difftool
 
