@@ -1,32 +1,33 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="use_theme_colors" mtime="1435958661" type="bool" value="true"/>
-	<entry name="exit_action" mtime="1435958693" type="string">
+	<entry name="background_darkness" mtime="1436430177" type="float" value="0.62284481525421143"/>
+	<entry name="use_theme_colors" mtime="1436430168" type="bool" value="false"/>
+	<entry name="exit_action" mtime="1436169521" type="string">
 		<stringvalue>hold</stringvalue>
 	</entry>
-	<entry name="default_show_menubar" mtime="1435958693" type="bool" value="false"/>
+	<entry name="default_show_menubar" mtime="1436169521" type="bool" value="false"/>
 	<entry name="allow_bold" mtime="1435958638" type="bool" value="true"/>
-	<entry name="font" mtime="1435958693" type="string">
-		<stringvalue>Ubuntu Mono 12</stringvalue>
+	<entry name="font" mtime="1436184811" type="string">
+		<stringvalue>Monospace 10</stringvalue>
 	</entry>
-	<entry name="use_system_font" mtime="1435958693" type="bool" value="false"/>
-	<entry name="background_type" mtime="1435958693" type="string">
+	<entry name="use_system_font" mtime="1436169521" type="bool" value="false"/>
+	<entry name="background_type" mtime="1436169521" type="string">
 		<stringvalue>transparent</stringvalue>
 	</entry>
-	<entry name="palette" mtime="1435958693" type="string">
-		<stringvalue>#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC</stringvalue>
+	<entry name="palette" mtime="1436430213" type="string">
+		<stringvalue>#000000000000:#C4C4A0A00000:#0000CDCB0000:#CDCBCDCB0000:#1E1A908FFFFF:#CDCB0000CDCB:#0000CDCBCDCB:#E5E2E5E2E5E2:#4CCC4CCC4CCC:#EDEDD4D40000:#0000FFFF0000:#FFFFFFFF0000:#46458281B4AE:#FFFF0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
 	</entry>
-	<entry name="alternate_screen_scroll" mtime="1435958693" type="bool" value="true"/>
-	<entry name="background_color" mtime="1435958693" type="string">
-		<stringvalue>#FFFFFFFFDDDD</stringvalue>
+	<entry name="alternate_screen_scroll" mtime="1436169521" type="bool" value="true"/>
+	<entry name="background_color" mtime="1436430172" type="string">
+		<stringvalue>#000000000000</stringvalue>
 	</entry>
-	<entry name="visible_name" mtime="1435958693" type="string">
+	<entry name="visible_name" mtime="1436169521" type="string">
 		<stringvalue>Default</stringvalue>
 	</entry>
-	<entry name="bold_color" mtime="1435958693" type="string">
+	<entry name="bold_color" mtime="1436169521" type="string">
 		<stringvalue>#000000000000</stringvalue>
 	</entry>
-	<entry name="foreground_color" mtime="1435958693" type="string">
-		<stringvalue>#000000000000</stringvalue>
+	<entry name="foreground_color" mtime="1436430181" type="string">
+		<stringvalue>#EEEEEEEEECEC</stringvalue>
 	</entry>
 </gconf>
