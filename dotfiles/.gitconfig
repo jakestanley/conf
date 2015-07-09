@@ -9,33 +9,17 @@ l = "!x() { git log --pretty=tformat:\"%Cred%d %Cgreen%s %Cblue(%cn) %Cred%h\" -
 
 co = checkout
 
-
 nb = checkout -b
 
 db = branch -D
 
-
-
-
 cp = cherry-pick
-
-
-
 
 s = status
 
-
-
-
 dt = difftool
 
-
-
-
 mt = mergetool
-
-
-
 
 ph = push origin HEAD
 
@@ -73,5 +57,4 @@ ph = push origin HEAD
 
 [core]
 
-editor = vim
-
+    editor = vim
