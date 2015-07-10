@@ -13,3 +13,7 @@ sudo ln -s ~/conf/dotfiles/.gconf ~/.gconf
 # Link to .gitconfig
 sudo rm ~/.gitconfig
 sudo ln -s ~/conf/dotfiles/.gitconfig ~/.gitconfig
+
+# Link to .shutter
+sudo rm ~/.shutter -r
+sudo ln -s ~/conf/dotfiles/.shutter ~/.shutter
