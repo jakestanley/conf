@@ -1,3 +1,4 @@
+sudo apt-get install -y nvpy
 sudo apt-get install -y evince
 sudo apt-get install -y pandoc
 sudo apt-get install -y pidgin
