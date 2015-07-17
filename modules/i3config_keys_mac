@@ -1,0 +1,10 @@
+# set mac keyboard mappings
+exec setxkbmap gb
+
+# laptop keybindings
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
+bindsym XF86KbdBrightnessUp exec sudo keyboard-backlight up
+bindsym XF86KbdBrightnessDown exec sudo keyboard-backlight down
+
+set $mod Mod1

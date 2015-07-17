@@ -1,0 +1,4 @@
+# set standard keyboard mappings
+exec setxkbmap gb
+
+set $mod Mod4
