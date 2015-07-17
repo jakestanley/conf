@@ -13,3 +13,15 @@ cat i3status_header i3status_general_colour i3status_order_standard i3status_com
 # Build a bashrc file for pc
 rm ~/.bashrc
 cat bashrc_general bashrc_keys_standard > ~/.bashrc
+
+# Link to .gconf (gnome configurations)
+sudo rm ~/.gconf -r
+sudo ln -s ~/conf/dotfiles/.gconf ~/.gconf
+
+# Link to .gitconfig
+sudo rm ~/.gitconfig
+sudo ln -s ~/conf/dotfiles/.gitconfig ~/.gitconfig
+
+# Link to .shutter
+sudo rm ~/.shutter -r
+sudo ln -s ~/conf/dotfiles/.shutter ~/.shutter
