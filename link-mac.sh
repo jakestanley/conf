@@ -30,3 +30,7 @@ sudo ln -s ~/conf/dotfiles/.shutter ~/.shutter
 sudo rm ~/.config/sublime-text-2/Packages/User -rf
 mkdir ~/.config/sublime-text-2/Packages -p
 ln -s ~/conf/dotfiles/.config/sublime-text-2/Packages/User ~/.config/sublime-text-2/Packages/User
+
+# Link to themes
+sudo rm ~/.themes -rf
+ln -s ~/conf/dotfiles/.themes ~/.themes
