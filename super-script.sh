@@ -11,11 +11,6 @@ else
 	echo "Installing standard configurations"
 fi
 
-if hash spotify 2>/dev/null; then
-	echo "spotify is not installed"
-else
-	echo "spotify is installed"
-fi
 
 
 echo "Done"
