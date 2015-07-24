@@ -25,3 +25,8 @@ sudo ln -s ~/conf/dotfiles/.gitconfig ~/.gitconfig
 # Link to .shutter
 sudo rm ~/.shutter -rf
 sudo ln -s ~/conf/dotfiles/.shutter ~/.shutter
+
+# Link to Sublime Text preferences
+sudo rm ~/.config/sublime-text-2/Packages/User -rf
+mkdir ~/.config/sublime-text-2/Packages -p
+ln -s ~/conf/dotfiles/.config/sublime-text-2/Packages/User ~/.config/sublime-text-2/Packages/User
