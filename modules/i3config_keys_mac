@@ -7,4 +7,4 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 bindsym XF86KbdBrightnessUp exec sudo keyboard-backlight up
 bindsym XF86KbdBrightnessDown exec sudo keyboard-backlight down
 
-set $mod Mod1
+set $mod Mod4
