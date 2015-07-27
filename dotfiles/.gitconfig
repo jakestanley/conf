@@ -23,7 +23,7 @@ dt = difftool
 mt = mergetool
 
 ph = push origin HEAD
-
+pullr = pull --rebase
 [gui]
 
 [diff]
