@@ -38,3 +38,7 @@ ln -s ~/conf/dotfiles/.themes ~/.themes
 # Link to compton config
 sudo rm ~/.config/compton.conf
 ln -s ~/conf/dotfiles/.config/compton.conf ~/.config/compton.conf 
+
+# Link to Xresources
+rm ~/.Xresources
+ln -s ~/conf/dotfiles/.Xresources ~/.Xresources

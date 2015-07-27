@@ -34,3 +34,7 @@ ln -s ~/conf/dotfiles/.config/sublime-text-2/Packages/User ~/.config/sublime-tex
 # Link to themes
 sudo rm ~/.themes -rf
 ln -s ~/conf/dotfiles/.themes ~/.themes
+
+# Link to Xresources
+rm ~/.Xresources
+ln -s ~/conf/dotfiles/.Xresources ~/.Xresources
