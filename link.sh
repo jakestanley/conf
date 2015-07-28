@@ -48,3 +48,8 @@ ln -s ~/conf/dotfiles/.config/compton.conf ~/.config/compton.conf
 sudo rm ~/.config/clerk/config
 mkdir ~/.config/clerk -p
 ln -s ~/conf/dotfiles/.config/clerk/config ~/.config/clerk/config
+
+# Link to dunstrc
+rm -r ~/.config/dunst
+mkdir ~/.config/dunst
+ln -s ~/conf/dotfiles/.config/dunst/dunstrc ~/.config/dunst/dunstrc
