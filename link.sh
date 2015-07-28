@@ -43,3 +43,8 @@ ln -s ~/conf/dotfiles/.Xresources ~/.Xresources
 # Link to compton config
 sudo rm ~/.config/compton.conf
 ln -s ~/conf/dotfiles/.config/compton.conf ~/.config/compton.conf
+
+# Link to clerk config
+sudo rm ~/.config/clerk/config
+mkdir ~/.config/clerk -p
+ln -s ~/conf/dotfiles/.config/clerk/config ~/.config/clerk/config
