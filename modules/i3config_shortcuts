@@ -76,9 +76,14 @@ bindsym $mod+Shift+space floating toggle
 #bindsym $mod+d focus child
 
 # playpause spotify
-bindsym $mod+x exec qdbus org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
-bindsym $mod+z exec qdbus org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
-bindsym $mod+c exec qdbus org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+#bindsym $mod+x exec qdbus org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+#bindsym $mod+z exec qdbus org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+#bindsym $mod+c exec qdbus org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+
+# control mpd using mpc
+bindsym $mod+x exec mpc toggle
+bindsym $mod+z exec mpc prev
+bindsym $mod+c exec mpc next
 
 # volume controls
 bindsym $mod+Shift+c exec amixer -q set Master 2dB+ unmute
