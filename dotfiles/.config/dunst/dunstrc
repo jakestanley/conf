@@ -1,5 +1,5 @@
 [global]
-    font = Fira Mono Medium 10
+    font = DejaVu Sans Mono 10
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -31,7 +31,7 @@
     
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
-    alignment = center
+    alignment = right
     
     # The frequency with wich text that is longer than the notification
     # window allows bounces back and forth.
@@ -73,7 +73,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing windowmanager is
     # present (e.g. xcompmgr, compiz, etc.).
-    transparency = 12
+    transparency = 20
     
     # Don't remove messages, if the user is idle (no mouse or keyboard input)
     # for longer than idle_threshold seconds.
@@ -148,7 +148,7 @@
     icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 
 [frame]
-    width = 2
+    width = 0
     color = "#ebdbb2"
 
 [shortcuts]
@@ -175,18 +175,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    foreground = "#ebdbb2"
-    background = "#1d2021"
+    foreground = "#ffffff"
+    background = "#ea4812"
     timeout = 10
 
 [urgency_normal]
-    foreground = "#ebdbb2"
-    background = "#1d2021"
+    foreground = "#ffffff"
+    background = "#ea4812"
     timeout = 10
 
 [urgency_critical]
-    foreground = "#ebdbb2"
-    background = "#1d2021"
+    foreground = "#ffffff"
+    background = "#ea4812"
     timeout = 10
 
 
