@@ -4,6 +4,9 @@ while [[ $# > 1 ]]
 do
 key="$1"
 
+MS_MODKEY="Mod4"
+MS_KEYMAP="gb"
+
 case $key in
     -primary)
     MS_PRIMARY="$2"
@@ -37,12 +40,8 @@ case $key in
     MS_FONT="$2"
     shift # past argument
     ;;
-    -modkey)
-    MS_MODKEY="$2"
-    shift # past argument
-    ;;
-    -keymap)
-    MS_KEYMAP="$2"
+    -mac)
+    MS_KEYMAP="gb -variant mac"
     shift # past argument
     ;;
     --default)
