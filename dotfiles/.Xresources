@@ -6,5 +6,6 @@ rofi.font: DejaVu Sans Mono 12
 urxvt.foreground: white
 urxvt.font: xft:Monospace:size=9.5
 urxvt.letterSpace: -1
-urxvt.background: black
 urxvt.scrollBar: false
+urxvt.depth: 32
+urxvt.background: [ms_opacity]#ms_transparent_bg
