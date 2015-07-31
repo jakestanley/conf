@@ -20,7 +20,7 @@ ln -s ~/conf/dotfiles/.bashrc 			~/.bashrc
 ln -s ~/conf/dotfiles/.config 			~/.config
 ln -s ~/conf/dotfiles/.gconf 			~/.gconf
 ln -s ~/conf/dotfiles/.gitconfig 		~/.gitconfig
-ln -s ~/conf/dotfiles/.i3 				~/.i3
+ln -s ~/conf/dotfiles/.i3 			~/.i3
 ln -s ~/conf/dotfiles/.inputrc 			~/.inputrc
 ln -s ~/conf/dotfiles/.profile 			~/.profile
 ln -s ~/conf/dotfiles/.shutter 			~/.shutter
