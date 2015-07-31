@@ -5,4 +5,4 @@ xrandr --output VGA-0 --auto --left-of VGA-1
 xrandr --dpi 96 
 
 # Set wallpaper correctly
-feh --bg-center ~/wallpaper.* --bg-center ~/wallpaper.*
+feh --bg-center ~/.wallpaper.* --bg-center ~/.wallpaper.*
