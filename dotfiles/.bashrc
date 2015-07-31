@@ -114,11 +114,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-setxkbmap -layout gb -variant mac
-
-function _my_cd() {
-  case $2 in
-    vwm) COMPREPLY=('/var/www/mememe/htdocs') ;;
-    *) _cd $@ ;;
-  esac
-}
+setxkbmap -layout gb
