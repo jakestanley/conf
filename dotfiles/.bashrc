@@ -2,6 +2,8 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+shopt -s progcomp
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -112,5 +114,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+setxkbmap -layout gb -variant mac
 
-setxkbmap gb
+function _my_cd() {
+  case $2 in
+    vwm) COMPREPLY=('/var/www/mememe/htdocs') ;;
+    *) _cd $@ ;;
+  esac
+}
