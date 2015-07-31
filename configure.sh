@@ -4,6 +4,14 @@ while [[ $# > 1 ]]
 do
 key="$1"
 
+# Defaults
+MS_PRIMARY="16141a"
+MS_FOCUSED="a8a9a8"
+MS_ACTIVE="8b8a8d"
+MS_INACTIVE="666463"
+MS_TEXT="FFFFFF"
+MS_TEXT_SECONDARY="d7d4d5"
+MS_FONT="DejaVu Sans Mono"
 MS_MODKEY="Mod4"
 MS_KEYMAP="gb"
 MS_TRANSPARENT_BG="FFFFFF"
@@ -47,12 +55,15 @@ case $key in
     MS_TRANSPARENT_BG="$2"
     shift # past argument
     ;;
+    -opacity)
     MS_OPACITY="$2"
     shift # past argument
     ;;
+    -transparency)
     MS_TRANSPARENCY="$2"
     shift # past argument
     ;;
+    -keymap)
     MS_KEYMAP="gb -variant mac"
     shift # past argument
     ;;
