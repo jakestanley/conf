@@ -42,3 +42,8 @@ ln -s ~/conf/dotfiles/.config/compton.conf ~/.config/compton.conf
 # Link to Xresources
 rm ~/.Xresources
 ln -s ~/conf/dotfiles/.Xresources ~/.Xresources
+
+# Link to dunstrc
+rm -r ~/.config/dunst
+mkdir ~/.config/dunst
+ln -s ~/conf/dotfiles/.config/dunst/dunstrc ~/.config/dunst/dunstrc
