@@ -7,7 +7,7 @@ MS_TEXT="FFFFFF"
 MS_TEXT_SECONDARY="d7d4d5"
 MS_FONT="DejaVu Sans Mono"
 MS_MODKEY="Mod4"
-MS_KEYMAP="gb"
+MS_KEYMAP="-layout gb"
 MS_TRANSPARENT_BG="FFFFFF"
 MS_OPACITY="80"
 MS_TRANSPARENCY="20"
@@ -64,8 +64,8 @@ case $key in
     MS_TRANSPARENCY="$2"
     shift # past argument
     ;;
-    -keymap)
-    MS_KEYMAP="gb -variant mac"
+    -mac)
+    MS_KEYMAP="-layout gb -variant mac"
     shift # past argument
     ;;
     --default)
