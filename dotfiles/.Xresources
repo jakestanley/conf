@@ -1,6 +1,6 @@
 rofi.bg: #ms_primary_colour
 rofi.fg: #ms_text_colour
-rofi.opacity: 80
+rofi.opacity: ms_opacity
 rofi.borderwidth: 0
 rofi.font: DejaVu Sans Mono 12
 urxvt.foreground: white
