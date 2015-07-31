@@ -7,6 +7,7 @@ key="$1"
 MS_MODKEY="Mod4"
 MS_KEYMAP="gb"
 MS_TRANSPARENT_BG="FFFFFF"
+MS_OPACITY="80"
 
 case $key in
     -primary)
@@ -42,7 +43,10 @@ case $key in
     shift # past argument
     ;;
     -transparent-bg)
-    TRANSPARENT_BG="$2"
+    MS_TRANSPARENT_BG="$2"
+    shift # past argument
+    ;;
+    MS_OPACITY="$2"
     shift # past argument
     ;;
     MS_KEYMAP="gb -variant mac"
@@ -69,5 +73,6 @@ grep -rl ms_font ~/conf/dotfiles/ | xargs sed -i 's/ms_font/'$MS_FONT'/g'
 grep -rl ms_modkey ~/conf/dotfiles/ | xargs sed -i 's/ms_modkey/'$MS_MODKEY'/g'
 grep -rl ms_keymap ~/conf/dotfiles/ | xargs sed -i 's/ms_keymap/'$MS_KEYMAP'/g'
 grep -rl ms_transparent_bg ~/conf/dotfiles/ | xargs sed -i 's/ms_transparent_bg/'$MS_TRANSPARENT_BG'/g'
+grep -rl ms_opacity ~/conf/dotfiles/ | xargs sed -i 's/ms_opacity/'$MS_OPACITY'/g'
 
 echo "Done compiling theme"
