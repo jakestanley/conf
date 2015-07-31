@@ -1,3 +1,8 @@
+*.swp
+dotfiles/.config/dconf
+dotfiles/.config/ibus
+dotfiles/.config/user-dirs.dirs
+dotfiles/.config/user-dirs.locale
 dotfiles/.config/google-chrome/
 dotfiles/.config/pulse/
 dotfiles/.config/menus/
