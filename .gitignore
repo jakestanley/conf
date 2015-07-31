@@ -1,0 +1,7 @@
+dotfiles/.config/google-chrome/
+dotfiles/.config/pulse/
+dotfiles/.config/menus/
+!dotfiles/.config/sublime-text-2/Packages/User
+dotfiles/.config/sublime-text-2/Packages/
+dotfiles/.config/sublime-text-2/Pristine Packages/
+dotfiles/.config/sublime-text-2/Settings/
