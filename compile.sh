@@ -66,4 +66,6 @@ grep -rl ms_font ~/conf/dotfiles/                   | xargs sed -i 's/ms_font/'$
 grep -rl ms_modkey ~/conf/dotfiles/                 | xargs sed -i 's/ms_modkey/'$MS_MODKEY'/g'
 grep -rl ms_keymap ~/conf/dotfiles/                 | xargs sed -i 's/ms_keymap/'$MS_KEYMAP'/g'
 
-echo "Done inserting colour theme"
+echo "Refreshing..."
+
+xrdb -merge ~/.Xresources
