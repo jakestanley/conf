@@ -1,10 +1,4 @@
-# Parse args
-
-while [[ $# > 1 ]]
-do
-key="$1"
-
-# Defaults
+# Setting defaults
 MS_PRIMARY="16141a"
 MS_FOCUSED="a8a9a8"
 MS_ACTIVE="8b8a8d"
@@ -17,6 +11,13 @@ MS_KEYMAP="gb"
 MS_TRANSPARENT_BG="FFFFFF"
 MS_OPACITY="80"
 MS_TRANSPARENCY="20"
+
+# Parse args
+while [[ $# > 1 ]]
+do
+key="$1"
+
+echo 'ms focused: '$MS_FOCUSED
 
 case $key in
     -primary)
@@ -76,6 +77,8 @@ case $key in
 esac
 shift
 done
+
+#echo 'ms focused: '$MS_FOCUSED
 
 grep -rl ms_primary_colour ~/conf/dotfiles/ | xargs sed -i 's/ms_primary_colour/'$MS_PRIMARY'/g'
 grep -rl ms_focused_colour ~/conf/dotfiles/ | xargs sed -i 's/ms_focused_colour/'$MS_FOCUSED'/g'
