@@ -8,3 +8,4 @@ sudo apt-get install -y tree
 sudo apt-get install -y shutter
 sudo apt-get install -y lxappearance
 sudo apt-get install -y compton
+sudo apt-get install -y xsel
