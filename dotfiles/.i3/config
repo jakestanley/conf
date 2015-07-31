@@ -9,8 +9,6 @@ set $default_gaps_outer 5
 
 gaps inner $default_gaps_inner
 gaps outer $default_gaps_outer
-# set mac keyboard mappings
-exec setxkbmap gb
 
 # laptop keybindings
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness

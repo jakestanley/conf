@@ -114,4 +114,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-setxkbmap -layout gb
+setxkbmap ms_keymap
