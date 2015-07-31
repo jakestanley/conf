@@ -1,3 +1,0 @@
-# Fixing the graphics glitch
-
-for_window [class="^.*"] border pixel 3
