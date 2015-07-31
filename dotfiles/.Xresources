@@ -1,5 +1,10 @@
-rofi.bg: #ea4812
-rofi.fg: #ffffff
+rofi.bg: #ms_primary_colour
+rofi.fg: #ms_text_colour
 rofi.opacity: 80
 rofi.borderwidth: 0
 rofi.font: DejaVu Sans Mono 12
+urxvt.foreground: white
+urxvt.font: xft:Monospace:size=9.5
+urxvt.letterSpace: -1
+urxvt.background: black
+urxvt.scrollBar: false
