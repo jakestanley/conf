@@ -7,7 +7,7 @@ MS_TEXT="FFFFFF"
 MS_TEXT_SECONDARY="d7d4d5"
 MS_FONT="DejaVu Sans Mono"
 MS_MODKEY="Mod4"
-MS_KEYMAP="-layout gb"
+MS_KEYBOARD_VARIANT=""
 MS_TRANSPARENT_BG="000000"
 MS_OPACITY="80"
 MS_TRANSPARENCY="20"
@@ -16,8 +16,6 @@ MS_TRANSPARENCY="20"
 while [[ $# > 1 ]]
 do
 key="$1"
-
-echo 'ms focused: '$MS_FOCUSED
 
 case $key in
     -primary)
@@ -65,8 +63,8 @@ case $key in
     shift # past argument
     ;;
     -mac)
-    MS_KEYMAP="-layout gb -variant mac"
-    shift # past argument
+    echo "HIT MAC SWITCH"
+    MS_KEYBOARD_VARIANT="mac"
     ;;
     --default)
     DEFAULT=YES
@@ -89,7 +87,7 @@ grep -rl ms_text_colour ~/conf/dotfiles/ | xargs sed -i 's/ms_text_colour/'$MS_T
 grep -rl ms_text_secondary_colour ~/conf/dotfiles/ | xargs sed -i 's/ms_text_secondary_colour/'$MS_TEXT_SECONDARY'/g'
 grep -rl ms_font ~/conf/dotfiles/ | xargs sed -i 's/ms_font/'$MS_FONT'/g'
 grep -rl ms_modkey ~/conf/dotfiles/ | xargs sed -i 's/ms_modkey/'$MS_MODKEY'/g'
-grep -rl ms_keymap ~/conf/dotfiles/ | xargs sed -i 's/ms_keymap/'$MS_KEYMAP'/g'
+grep -rl ms_keyboard_variant ~/conf/dotfiles/ | xargs sed -i 's/ms_keyboard_variant/'$MS_KEYBOARD_VARIANT'/g'
 grep -rl ms_transparent_bg ~/conf/dotfiles/ | xargs sed -i 's/ms_transparent_bg/'$MS_TRANSPARENT_BG'/g'
 grep -rl ms_opacity ~/conf/dotfiles/ | xargs sed -i 's/ms_opacity/'$MS_OPACITY'/g'
 grep -rl ms_transparency ~/conf/dotfiles/ | xargs sed -i 's/ms_transparency/'$MS_TRANSPARENCY'/g'
