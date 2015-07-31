@@ -1,4 +1,5 @@
 *.swp
+dotfiles/.gconf/
 dotfiles/.config/dconf
 dotfiles/.config/ibus
 dotfiles/.config/user-dirs.dirs
