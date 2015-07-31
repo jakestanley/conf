@@ -1,3 +1,4 @@
+# Move any existing files to an "old" directory
 mkdir ~/.old
 
 mv ~/.bash_logout 	~/.old/.bash_logout
@@ -13,6 +14,7 @@ mv ~/.themes 		~/.old/.themes
 mv ~/.xinitrc 		~/.old/.xinitrc
 mv ~/.Xresources 	~/.old/.Xresources
 
+# Create symbolic links
 ln -s ~/conf/dotfiles/.bash_logout 		~/.bash_logout
 ln -s ~/conf/dotfiles/.bashrc 			~/.bashrc
 ln -s ~/conf/dotfiles/.config 			~/.config
@@ -25,3 +27,7 @@ ln -s ~/conf/dotfiles/.shutter 			~/.shutter
 ln -s ~/conf/dotfiles/.themes 			~/.themes
 ln -s ~/conf/dotfiles/.xinitrc 			~/.xinitrc
 ln -s ~/conf/dotfiles/.Xresources 		~/.Xresources
+
+# Refresh
+source ~/.bashrc
+xrdb -merge ~/.Xresources
