@@ -1,15 +1,15 @@
-rm ~/.bash_logout
-rm ~/.bashrc
-rm ~/.config
-rm ~/.gitconfig
-rm ~/.gtkrc-2.0
-rm ~/.i3
-rm ~/.inputrc
-rm ~/.profile
-rm ~/.shutter
-rm ~/.themes
-rm ~/.xinitrc
-rm ~/.Xresources
+rm -r ~/.bash_logout
+rm -r ~/.bashrc
+rm -r ~/.config
+rm -r ~/.gitconfig
+rm -r ~/.gtkrc-2.0
+rm -r ~/.i3
+rm -r ~/.inputrc
+rm -r ~/.profile
+rm -r ~/.shutter
+rm -r ~/.themes
+rm -r ~/.xinitrc
+rm -r ~/.Xresources
 
 # Create symbolic links
 ln -s ~/conf/dotfiles/.bash_logout ~/.bash_logout
