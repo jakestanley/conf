@@ -2,6 +2,7 @@ rm ~/.bash_logout
 rm ~/.bashrc
 rm ~/.config
 rm ~/.gitconfig
+rm ~/.gtkrc-2.0
 rm ~/.i3
 rm ~/.inputrc
 rm ~/.profile
