@@ -8,5 +8,8 @@ sudo apt-get -y install default-jdk
 sudo apt-get -y install thunderbird
 echo "NOTE: You'll need to manually configure the ExQuilla addon"
 
+# Install file manager
+sudo apt-get -y install pcmanfm
+
 # Install window manager and dependencies stuff
 sudo apt-get install -y x11-xserver-utils

@@ -46,7 +46,7 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+b exec google-chrome
 
 # start a file manager window
-bindsym $mod+n exec nautilus
+bindsym $mod+n exec pcmanfm
 
 # kill focused window
 bindsym $mod+Shift+q kill
