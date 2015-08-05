@@ -1,3 +1,4 @@
+sudo rm -r ~/.bash_aliases
 sudo rm -r ~/.bash_logout
 sudo rm -r ~/.bashrc
 sudo rm -r ~/.config
@@ -13,6 +14,7 @@ sudo rm -r ~/.Xresources
 sudo rm -r ~/.vimrc
 
 # Create symbolic links
+sudo ln -s ~/conf/dotfiles/.bash_aliases ~/.bash_aliases
 sudo ln -s ~/conf/dotfiles/.bash_logout ~/.bash_logout
 sudo ln -s ~/conf/dotfiles/.bashrc ~/.bashrc
 sudo ln -s ~/conf/dotfiles/.config ~/.config
