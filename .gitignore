@@ -1,5 +1,6 @@
 *.swp
 dotfiles/.gconf/
+dotfiles/.config/Trolltech.conf
 dotfiles/.config/dconf
 dotfiles/.config/ibus
 dotfiles/.config/user-dirs.dirs
@@ -7,6 +8,12 @@ dotfiles/.config/user-dirs.locale
 dotfiles/.config/google-chrome/
 dotfiles/.config/pulse/
 dotfiles/.config/menus/
+dotfiles/.config/spotify/
+dotfiles/.config/unity/
+dotfiles/.config/xfce4/
+dotfiles/.config/enchant/
+dotfiles/.config/compiz-1/
+dotfiles/.config/libreoffice/
 dotfiles/.config/sublime-text-2/Packages/*
 !dotfiles/.config/sublime-text-2/Packages/User
 dotfiles/.config/sublime-text-2/Pristine Packages/
