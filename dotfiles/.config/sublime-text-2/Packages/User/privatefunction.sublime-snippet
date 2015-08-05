@@ -5,6 +5,6 @@ private function ${1:myFunction}(${2:arguments}){
 	
 }
 ]]></content>
-	<tabTrigger>pf</tabTrigger>
+	<tabTrigger>privatef</tabTrigger>
 	<scope>source.php</scope>
 </snippet>

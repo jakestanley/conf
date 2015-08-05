@@ -1,8 +1,10 @@
 <!-- Snippet for creating private functions in PHP -->
 <snippet>
 	<content><![CDATA[
-Mage::log("${1:message}", null, ${2:logfile});
+public function ${1:myFunction}(${2:arguments}){
+	
+}
 ]]></content>
-	<tabTrigger>magelog</tabTrigger>
+	<tabTrigger>publicf</tabTrigger>
 	<scope>source.php</scope>
 </snippet>
