@@ -1,5 +1,6 @@
+source ~/conf/flag-update.sh
+
 # Installs dunst and necessary dependencies
-sudo apt-get update
 sudo apt-get install -y dbus
 sudo apt-get install -y libxinerama-dev
 sudo apt-get install -y libxft-dev

@@ -1,3 +1,4 @@
+source ~/conf/flag-update.sh
 # Install some core programs
 
 sudo apt-get -y install vim
@@ -6,7 +7,7 @@ sudo apt-get -y install default-jdk
 
 # Install email client
 sudo apt-get -y install thunderbird
-echo "NOTE: You'll need to manually configure the ExQuilla addon"
+echo "NOTE: You'll need to manually configure the ExQuilla addon for Thunderbird" >> ~/conf_notes.log
 
 # Install file manager
 sudo apt-get -y install pcmanfm

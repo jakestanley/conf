@@ -1,3 +1,5 @@
+source ~/conf/flag-update.sh
+
 # Install PHP and nginx stuff
 sudo apt-get -y install nginx
 sudo apt-get -y install php5-fpm

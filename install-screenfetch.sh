@@ -1,3 +1,5 @@
+source ~/conf/flag-update.sh
+
 sudo apt-get install -y lsb-release scrot
 mkdir ~/screenfetch
 cd ~/screenfetch

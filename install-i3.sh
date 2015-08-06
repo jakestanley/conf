@@ -1,3 +1,5 @@
+source ~/conf/flag-update.sh
+
 # Install i3. TODO Needs rewriting
 
 # Clone the repo

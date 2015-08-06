@@ -1,3 +1,5 @@
+source ~/conf/flag-update.sh
+
 sudo apt-get install -y nvpy
 sudo apt-get install -y evince
 sudo apt-get install -y pandoc
@@ -10,3 +12,4 @@ sudo apt-get install -y shutter
 sudo apt-get install -y lxappearance
 sudo apt-get install -y compton
 sudo apt-get install -y xsel
+sudo apt-get install -y fluxgui

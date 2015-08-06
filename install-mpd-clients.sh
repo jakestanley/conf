@@ -1,3 +1,5 @@
+source ~/conf/flag-update.sh
+
 # Sets up the rofi mpd client "clerk" and any other mpd clients I may use. Current requires rofi
 
 # Install dependencies
