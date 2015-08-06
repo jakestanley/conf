@@ -6,11 +6,12 @@ cd ~/conf
 read -p "Are you on a mac? [y is affirmative]" answer
 if [[ $answer = y ]] ; then
 	echo "Installing configurations for mac"
-	source ~/conf/link-mac.sh
+	source ~/conf/configure.sh -mac -mac
 else
 	echo "Installing standard configurations"
+	source ~/conf/configure.sh
 fi
 
-
+source 
 
 echo "Done"
