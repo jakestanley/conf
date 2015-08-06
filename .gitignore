@@ -19,3 +19,10 @@ dotfiles/.config/sublime-text-2/Packages/*
 !dotfiles/.config/sublime-text-2/Packages/User
 dotfiles/.config/sublime-text-2/Pristine Packages/
 dotfiles/.config/sublime-text-2/Settings/
+dotfiles/.config/sublime-text-3/Cache/
+dotfiles/.config/sublime-text-3/Index/
+dotfiles/.config/sublime-text-3/Local/
+dotfiles/.config/sublime-text-3/Packages/*
+!dotfiles/.config/sublime-text-3/Packages/User
+dotfiles/.config/sublime-text-3/Pristine Packages/
+dotfiles/.config/sublime-text-3/Settings/

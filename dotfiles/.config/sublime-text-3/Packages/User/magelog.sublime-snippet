@@ -1,0 +1,8 @@
+<!-- Snippet for creating private functions in PHP -->
+<snippet>
+	<content><![CDATA[
+Mage::log("${1:message}", null, ${2:logfile});
+]]></content>
+	<tabTrigger>magelog</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

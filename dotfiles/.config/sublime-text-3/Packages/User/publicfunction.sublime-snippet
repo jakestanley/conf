@@ -1,0 +1,10 @@
+<!-- Snippet for creating private functions in PHP -->
+<snippet>
+	<content><![CDATA[
+public function ${1:myFunction}(${2:arguments}){
+	
+}
+]]></content>
+	<tabTrigger>publicf</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
