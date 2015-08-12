@@ -11,6 +11,7 @@ sudo rm -r ~/.shutter
 sudo rm -r ~/.themes
 sudo rm -r ~/.xinitrc
 sudo rm -r ~/.Xresources
+sudo rm -r ~/.vim
 sudo rm -r ~/.vimrc
 
 # Create symbolic links
@@ -28,6 +29,7 @@ sudo ln -s ~/conf/dotfiles/.themes ~/.themes
 sudo ln -s ~/conf/dotfiles/.xinitrc ~/.xinitrc
 sudo ln -s ~/conf/dotfiles/.Xresources ~/.Xresources
 sudo ln -s ~/conf/dotfiles/.vimrc ~/.vimrc
+sudo ln -s ~/conf/dotfiles/.vim ~/.vim
 
 # Refresh
 source ~/.bashrc
