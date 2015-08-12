@@ -16,3 +16,4 @@ sudo apt-get install -y fluxgui
 sudo apt-get install -y htop
 sudo apt-get install -y ultra-flat-icons
 sudo apt-get install -y ultra-flat-icons-green
+sudo apt-get install -y xclip
