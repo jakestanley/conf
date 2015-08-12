@@ -121,7 +121,7 @@ style "default" {
 
 style "dark"
 {
-	color["bg_color_dark"] 	= "#ms_primary_colour"
+	color["bg_color_dark"] 	= "#16141a"
 	color["fg_color_dark"] 	= "#dfdbd2"
 	color["selected_fg_color_dark"] = "#ffffff"
 
