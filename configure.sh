@@ -1,5 +1,5 @@
 # Setting defaults
-MS_PRIMARY="16141a"
+MS_PRIMARY="fdf6e3"
 MS_FOCUSED="a8a9a8"
 MS_ACTIVE="8b8a8d"
 MS_INACTIVE="666463"
