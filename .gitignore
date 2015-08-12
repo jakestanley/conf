@@ -28,3 +28,4 @@ dotfiles/.config/sublime-text-3/Packages/*
 !dotfiles/.config/sublime-text-3/Packages/User
 dotfiles/.config/sublime-text-3/Pristine Packages/
 dotfiles/.config/sublime-text-3/Settings/
+/dotfiles/.config/gedit/accels
