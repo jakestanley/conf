@@ -2,7 +2,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 # wallpaper - improve this to work with a directory
-exec --no-startup-id feh --bg-tile --no-xinerama /home/jake/.wallpaper.*
+# exec --no-startup-id feh --bg-tile --no-xinerama /home/jake/.wallpaper.*
 
 # gaps
 set $default_gaps_inner 10

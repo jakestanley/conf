@@ -14,3 +14,5 @@ sudo apt-get install -y compton
 sudo apt-get install -y xsel
 sudo apt-get install -y fluxgui
 sudo apt-get install -y htop
+sudo apt-get install -y ultra-flat-icons
+sudo apt-get install -y ultra-flat-icons-green
