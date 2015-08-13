@@ -1,8 +1,5 @@
 # Adds necessary keys and repositories
 
-# Flux
-sudo add-apt-repository ppa:kilian/f.lux
-
 # TLP
 sudo add-apt-repository ppa:linrunner/tlp
 
