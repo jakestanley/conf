@@ -18,3 +18,5 @@ sudo apt-get install -y ultra-flat-icons
 sudo apt-get install -y ultra-flat-icons-green
 sudo apt-get install -y xclip
 sudo apt-get install -y dict
+sudo apt-get install -y preload
+sudo apt-get install tlp tlp-rdw
