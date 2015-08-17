@@ -35,7 +35,9 @@ sudo apt-get remove -y gnome-games gnome-games-data gnome-cards-data
 sudo apt-get remove -y example-content
 
 # remove ubuntu software center
-sudo apt-get remove software-center
+sudo apt-get remove -y software-center
 
 # clean
 sudo apt-get autoremove && sudo apt-get clean all && sudo apt-get autoclean all
+
+sudo apt-get update
