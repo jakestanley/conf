@@ -19,4 +19,5 @@ sudo apt-get install -y ultra-flat-icons-green
 sudo apt-get install -y xclip
 sudo apt-get install -y dict
 sudo apt-get install -y preload
-sudo apt-get install tlp tlp-rdw
+sudo apt-get install -y tlp tlp-rdw
+sudo apt-get install -y newsbeuter
