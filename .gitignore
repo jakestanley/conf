@@ -30,3 +30,5 @@ dotfiles/.config/sublime-text-3/Pristine Packages/
 dotfiles/.config/sublime-text-3/Settings/
 /dotfiles/.config/gedit/accels
 /dotfiles/.vim/.netrwhist
+dotfiles/.newsbeuter/cache.*
+dotfiles/.newsbeuter/history.*
