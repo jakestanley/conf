@@ -258,8 +258,9 @@ bar {
 	# position
 	position top
 
+	status_command i3blocks
 	# launch i3status
-        status_command i3status -c ~/.i3/.i3status.conf
+        # status_command i3status -c ~/.i3/.i3status.conf
 }
 # Fixing the graphics glitch
 

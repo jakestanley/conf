@@ -5,6 +5,7 @@ sudo rm -r ~/.config
 sudo rm -r ~/.gitconfig
 sudo rm -r ~/.gtkrc-2.0
 sudo rm -r ~/.i3
+sudo rm -r ~/.i3blocks.conf
 sudo rm -r ~/.inputrc
 sudo rm -r ~/.my.cnf
 sudo rm -r ~/.newsbeuter
@@ -24,6 +25,7 @@ sudo ln -s ~/conf/dotfiles/.config ~/.config
 sudo ln -s ~/conf/dotfiles/.gitconfig ~/.gitconfig
 sudo ln -s ~/conf/dotfiles/.gtkrc-2.0 ~/.gtkrc-2.0
 sudo ln -s ~/conf/dotfiles/.i3 ~/.i3
+sudo ln -s ~/conf/dotfiles/.i3blocks.conf ~/.i3blocks.conf
 sudo ln -s ~/conf/dotfiles/.inputrc ~/.inputrc
 sudo ln -s ~/conf/dotfiles/.my.cnf ~/.my.cnf
 sudo ln -s ~/conf/dotfiles/.newsbeuter ~/.newsbeuter
