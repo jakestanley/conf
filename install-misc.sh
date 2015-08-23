@@ -21,3 +21,5 @@ sudo apt-get install -y dict
 sudo apt-get install -y preload
 sudo apt-get install -y tlp tlp-rdw
 sudo apt-get install -y newsbeuter
+sudo apt-get install -y irssi
+sudo apt-get install -y grafx2

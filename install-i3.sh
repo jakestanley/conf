@@ -24,4 +24,4 @@ sudo apt-get -y install i3bar
 sudo apt-get -y install dmenu
 sudo apt-get -y install i3status
 
-## TODO remove crap folders, pictures, etc
+## TODO remove crap folders, pictures, etcsudo apt-get -y install i3lock # not a dependency but i use it
