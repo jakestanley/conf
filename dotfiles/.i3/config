@@ -24,7 +24,7 @@ set $S_green         #859900
 
 # gaps
 set $default_gaps_inner 12
-set $default_gaps_outer 10
+set $default_gaps_outer 0
 
 gaps inner $default_gaps_inner
 gaps outer $default_gaps_outer
@@ -56,6 +56,9 @@ font pango:Droid Sans Mono 8
 # font, it doesn’t scale on retina/hidpi displays.
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+# lock the screen
+bindsym $mod+Shift+l exec fancylock
 
 # start a terminal
 bindsym $mod+Return exec urxvt
@@ -94,10 +97,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+# bindsym $mod+Shift+j move left
+# bindsym $mod+Shift+k move down
+# bindsym $mod+Shift+l move up
+# bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
