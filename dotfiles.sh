@@ -35,6 +35,9 @@ sudo ln -s ~/conf/dotfiles/.Xresources ~/.Xresources
 sudo ln -s ~/conf/dotfiles/.vimrc ~/.vimrc
 sudo ln -s ~/conf/dotfiles/.vim ~/.vim
 
+# Copy apps
+sudo cp ~/conf/apps/fancylock /usr/local/bin/fancylock
+
 # Refresh
 source ~/.bashrc
 xrdb -merge ~/.Xresources
