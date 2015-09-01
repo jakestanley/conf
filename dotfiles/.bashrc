@@ -115,3 +115,4 @@ if ! shopt -oq posix; then
   fi
 fi
 setxkbmap -layout gb -variant ms_keyboard_variant
+xrdb -merge ~/.Xresources
